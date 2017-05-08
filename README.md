@@ -94,3 +94,49 @@ pe_ratio varchar(50)
 
 bash cs.sh Selected_Criteria.csv stock_info > stock_info.sql
 ```
+
+## Overall View of all data 
+
+```
+CREATE VIEW stox AS 
+select 
+stock_info.symbol,
+stock_info.company_name,
+stock_info.market_cap,
+stock_info.sector_gics,
+stock_info.exchange,
+stock_info.pe_ratio,
+general_info.dividend_yield ,
+general_info.institutional_ownership ,
+historical_performance.day_change_percentage ,
+historical_performance.1_mon_change ,
+historical_performance.3_mon_change ,
+historical_performance.1_yr_change ,
+historical_performance.3_yr_change ,
+historical_performance.5_yr_change ,
+historical_performance.10_yr_change ,
+ratings.bofaml_investment_rating ,
+ratings.bofaml_volatility_risk ,
+ratings.bofaml_income_rating ,
+ratings.morningstar_rating ,
+ratings.SnP_Capital_IQ_Ranking ,
+fundamentals.peg_ration_last_yr ,
+fundamentals.net_profit_margin ,
+fundamentals.return_on_equity ,
+fundamentals.debt_to_equity ,
+fundamentals.price_cashflow ,
+fundamentals.price_book ,
+earnings_growth.bofaml_eps_est_current_yr ,
+earnings_growth.bofaml_eps_est_next_yr ,
+earnings_growth.eps_growth_last_5_yr ,
+earnings_growth.rev_growth_last_5_yr 
+from 
+stock_info, general_info, historical_performance, ratings, fundamentals, earnings_growth
+where 
+earnings_growth.symbol = fundamentals.symbol AND 
+fundamentals.symbol = ratings.symbol  AND 
+ratings.symbol = historical_performance.symbol AND 
+historical_performance.symbol  = general_info.symbol  AND 
+general_info.symbol = stock_info.symbol
+;
+```
