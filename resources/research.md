@@ -4,6 +4,7 @@
 * guru website
 * Insider Trading
 
+```
 https://www.accern.com/
 https://www.gurufocus.com/
 http://www.barrons.com/stockpicks?mod=BOL_Nav_INV_hpp#/snapshots
@@ -15,3 +16,4 @@ http://www.nasdaq.com/markets/ipos/activity.aspx?tab=pricings&month=2017-02
 
 Side note - http://www.ranker.com/list/companies-headquartered-in-north-carolina/the-working-man
 
+```
