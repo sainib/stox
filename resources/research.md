@@ -17,3 +17,6 @@ http://www.nasdaq.com/markets/ipos/activity.aspx?tab=pricings&month=2017-02
 Side note - http://www.ranker.com/list/companies-headquartered-in-north-carolina/the-working-man
 
 ```
+
+nasdaq.com 
+
