@@ -6,3 +6,7 @@ https://www.quandl.com/api/v1/datasets/WIKI/HRTG.csv?column=4&sort_order=asc&col
 
 
 collapse potential values = daily, weekly, monthly, quaterly
+
+https://www.quandl.com/tools/full-list
+
+http://projects.wsj.com/econforecast/#ind=gdp&r=20
