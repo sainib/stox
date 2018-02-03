@@ -10,3 +10,6 @@ collapse potential values = daily, weekly, monthly, quaterly
 https://www.quandl.com/tools/full-list
 
 http://projects.wsj.com/econforecast/#ind=gdp&r=20
+
+
+curl -H 'Cache-Control: no-cache' -s 'http://www.nasdaq.com/callbacks/NLSHandler2.ashx' --data 'msg=min&symbol=HDP' | jq '.data[-1].price'
