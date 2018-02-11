@@ -20,3 +20,12 @@ Side note - http://www.ranker.com/list/companies-headquartered-in-north-carolina
 
 nasdaq.com 
 
+
+```
+
+https://www.google.com/search?q=how+to+find+tenbaggers&oq=how+to+find+tenba&aqs=chrome.0.0j69i57.13426j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.google.com/search?q=how+to+evaluate+stocks&oq=how+to+evaluate+stocks&aqs=chrome..69i57j0l5.8727j0j7&sourceid=chrome&ie=UTF-8
+
+
+```
