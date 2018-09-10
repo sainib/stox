@@ -11,6 +11,8 @@ __FORMAT__
 
 collapse potential values = daily, weekly, monthly, quaterly
 
+https://www.alphavantage.co/documentation/
+
 https://www.quandl.com/tools/full-list
 
 http://projects.wsj.com/econforecast/#ind=gdp&r=20
